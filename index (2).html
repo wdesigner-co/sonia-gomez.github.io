@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card - Estructura </title>
+  <meta name="description" content="Descripción para el posicionamiento SEO.">
+  <meta name="author" content="WDesigner.co">
+  <meta name="keywords" content="palabras claves, WDesigner, Alejandro Villanueva">
+  
+ <!-- Estilos -->
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
+ <!-- Boxicons CSS -->
+   <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+</head>
+<body>
+	<div class="container">
+	  
+	  <!-- Imagen de Portada y Perfil -->
+	  <section class="profile">
+	    <img src="img/sonia7.jpg"/>
+		</section>
+		<section class="cover">
+			<img src="img/cover7.png"/>
+    </section>
+		
+		<!-- Nombre, botones y descripción -->
+		
+		<section class="information">
+		  <div class="text-data">
+        <span class="name">Sonia Gómez</span>
+        <span class="lema">Estilista Integral </span>
+      </div>
+    
+      <!-- Botones a RRSS -->
+      <div class="media-buttons">
+        <a href="https://www.facebook.com/soniagraciela.gomezmarimon?mibextid=ZbWKwL" style="background: #808080" class="link">
+          <i class="bx bxl-facebook"></i>
+        </a>
+        
+        <a href="#" style="background: #808080" class="link">
+          <i class="bx bxl-twitter"></i>
+        </a>
+        
+        <a href="https://instagram.com/sonia_graciela_gomez_marimon_?igshid=YmMyMTA2M2Y=" style="background: #808080" class="link">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        
+        <a href="#" style="background:  #808080" class="link">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+      </div>
+      
+      <!-- Call action -->
+      <div class="buttons">
+        <button id="email-button" class="button">e-mail</button>
+        <button id="contact-button" class="button">Contactar</button>
+      </div>
+      
+      <!-- Menu desplegable Contactar -->
+      <div id="contact-menu">
+        <button id="close-button">X</button>
+        <h2> Contactar</h2>
+        <ul>
+          <li>
+            <a href="tel:+5804144662822">
+              <img src="img/llamada.png" alt="#"><span>Llamar</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.link/yao5ix">
+              <img src="img/WhatsApp8.png" alt="#"><span>Iniciar chat WhatsApp</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Actividad o Servicios -->
+      <div class="services">
+        <div class="data">
+          <span class="activity">Belleza</span>
+        </div>
+            
+        <div class="data">
+          <span class="activity">Cuidado Personal</span>
+        </div>
+        <div class="data">
+          <span class="activity">Cosmética</span>
+        </div>
+      </div>
+      
+      <!-- Breve descripcion del perfil -->
+      <div class="description">
+        <p>Servicios de peluquería y estilismo, maquillaje, peinados, colocacion de pestañas individuales, depilaciones con cera corporales y faciales, visajismo de cejas semipermanente, colocación de extensiones de cabello, corte, secado y colorimetría.
+          <br>
+          <br>
+          Masajes y todo lo relacionado con belleza y cuidado personal </p>
+      </div>
+      
+      <!-- iconos para compartir y descargar vCard -->
+      
+      <div class="shared">
+        
+        <div class="button-share">
+          <img onclick="share()" src="img/compartir_gris.png" alt="compartir">
+          <p> Compartir</p>
+        </div>
+        
+        <div class="button-share">
+          <a href="arch/sonia.vcf" download><img src="img/carpeta_gris.png" alt="vCard"></a>
+          <p>Agregar a Contactos</p>
+        </div>
+        
+         <div class="button-share">
+          <img id="qr-button" src="img/qr_gris.png" alt="qr">
+          <p>Código QR</p>
+        </div>
+        
+        <div id="qr-menu">
+          <button id="qr-close"><strong>X</strong></button>
+          <h2>Código Qr </h2>
+          <div class="qr-code">
+            <img src="img/soniaqr.png" alt="Codigo Qr">
+            <h4> ¡Escanear el código¡</h4>
+          </div>
+          
+        </div>
+      </div>
+		</section>
+	</div>
+	
+	<script src="js/jscript.js"></script>
+	
+	<!-- Diseño Web por Alex Col | WDesigner 2023 | Alejandro Villanueva -->
+</body>
+</html>
